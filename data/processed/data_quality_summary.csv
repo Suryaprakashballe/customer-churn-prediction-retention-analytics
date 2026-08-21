@@ -1,0 +1,15 @@
+column,data_type,missing_values,missing_percentage,unique_values
+RowNumber,int64,0,0.0,10000
+CustomerId,int64,0,0.0,10000
+Surname,str,0,0.0,2932
+CreditScore,int64,0,0.0,460
+Geography,str,0,0.0,3
+Gender,str,0,0.0,2
+Age,int64,0,0.0,70
+Tenure,int64,0,0.0,11
+Balance,float64,0,0.0,6382
+NumOfProducts,int64,0,0.0,4
+HasCrCard,int64,0,0.0,2
+IsActiveMember,int64,0,0.0,2
+EstimatedSalary,float64,0,0.0,9999
+Exited,int64,0,0.0,2
