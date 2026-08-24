@@ -1,0 +1,15 @@
+OriginalFeature,Importance
+AgeActivity,0.45079342
+NumOfProducts,0.18033108
+AgeGroup,0.08773677
+IsActiveMember,0.07001885
+Geography,0.040039223
+Age,0.038779356
+ActivityStatus,0.03723757
+BalanceStatus,0.031218538
+Gender,0.019661319
+Balance,0.013360252
+EstimatedSalary,0.008396066
+CreditScore,0.007988751
+HasCrCard,0.007725376
+Tenure,0.0067134835
