@@ -1,0 +1,6 @@
+{
+    "model": "XGBoost",
+    "model_version": "Optimized",
+    "threshold": 0.35,
+    "objective": "Customer churn prediction and retention prioritization"
+}
