@@ -366,11 +366,11 @@ Connects customer risk with the Customer Value Proxy to support:
 
 ### Dashboard Preview
 
-![Bank Customer Churn & Retention Analytics](powerbi_dashboard_preview.png)
+![Bank Customer Churn & Retention Analytics](powerbi/powerbi_dashboard_preview.png)
 
 The complete interactive Power BI report is available in the repository:
 
-[Open the Power BI report](Customer_churn.pbix)
+[Open the Power BI report](powerbi/Customer_churn.pbix)
 
 ---
 
