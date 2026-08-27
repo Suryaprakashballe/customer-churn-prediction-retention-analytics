@@ -44,4 +44,4 @@ Connects customer risk with the Customer Value Proxy to support:
 
 The complete interactive Power BI report is available in the repository:
 
-[Open the Power BI report](powerbi/customer_churn_retention_dashboard.pbix)
+[Open the Power BI report](powerbi/customer_churn.pbix)
