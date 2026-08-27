@@ -28,6 +28,25 @@ The project follows an end-to-end workflow from **raw customer data to predictiv
 
 ---
 
+## ⭐ Project Highlights
+
+| Area | Implementation |
+|---|---|
+| 📊 Data Analysis | Exploratory analysis of 10,000 banking customers |
+| 🛠️ Feature Engineering | Age, balance, activity, and interaction features |
+| 🤖 Machine Learning | Logistic Regression, Random Forest & XGBoost |
+| 🏆 Final Model | Optimized XGBoost |
+| 📈 ROC-AUC | **0.863** |
+| 📊 PR-AUC | **0.714** |
+| 🎚️ Threshold Optimization | Operating threshold of **0.35** |
+| 🔎 Explainability | SHAP-based feature analysis |
+| 👥 Risk Segmentation | Low, Moderate, High & Very High |
+| 🎯 Retention Strategy | Risk × Customer Value prioritization |
+| 🗄️ SQL | MySQL customer and churn analytics |
+| 📊 Visualization | Interactive Power BI dashboard |
+
+---
+
 ## 🎯 Business Problem
 
 A bank needs to identify customers who are likely to leave so that retention teams can prioritize their efforts.
