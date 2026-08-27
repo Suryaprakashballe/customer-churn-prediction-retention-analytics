@@ -449,3 +449,64 @@ customer-churn-prediction-retention-analytics/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+
+
+---
+
+## 📓 Notebook Guide
+
+| Notebook | Purpose |
+|---|---|
+| `01_data_understanding.ipynb` | Dataset structure, quality checks and initial analysis |
+| `02_eda.ipynb` | Exploratory data analysis and churn patterns |
+| `03_feature_engineering.ipynb` | Feature creation and preprocessing |
+| `04_baseline_models.ipynb` | Baseline model development and evaluation |
+| `05_model_optimization.ipynb` | Model comparison, optimization and threshold analysis |
+| `06_model_explainability.ipynb` | SHAP-based model interpretation |
+| `07_retention_strategy.ipynb` | Risk segmentation and retention prioritization |
+
+---
+
+## 🧰 Tech Stack
+
+### Programming & Data Analysis
+
+- Python
+- Pandas
+- NumPy
+
+### Visualization
+
+- Matplotlib
+- Seaborn
+- Power BI
+
+### Machine Learning
+
+- Scikit-learn
+- XGBoost
+
+### Explainable AI
+
+- SHAP
+
+### Database & Analytics
+
+- MySQL
+- SQL
+
+### Development & Version Control
+
+- Jupyter Notebook
+- Git
+- GitHub
+
+---
+
+## 🚀 How to Run
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Suryaprakashballe/customer-churn-prediction-retention-analytics.git
+cd customer-churn-prediction-retention-analytics
