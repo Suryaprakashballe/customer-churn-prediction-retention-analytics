@@ -400,3 +400,52 @@ Retention Prioritization
 SQL Analytics + Power BI
        ↓
 Business Insights
+
+---
+
+## 📁 Project Structure
+
+```text
+customer-churn-prediction-retention-analytics/
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── models/
+│   └── model_config.json
+│
+├── notebooks/
+│   ├── 01_data_understanding.ipynb
+│   ├── 02_eda.ipynb
+│   ├── 03_feature_engineering.ipynb
+│   ├── 04_baseline_models.ipynb
+│   ├── 05_model_optimization.ipynb
+│   ├── 06_model_explainability.ipynb
+│   └── 07_retention_strategy.ipynb
+│
+├── powerbi/
+│   ├── Customer_churn.pbix
+│   └── powerbi_dashboard_preview.png
+│
+├── reports/
+│   ├── baseline_model_results.csv
+│   ├── optimized_model_results.csv
+│   ├── final_model_metrics.csv
+│   ├── optimized_xgboost_threshold_analysis.csv
+│   ├── feature_importance_comparison.csv
+│   ├── retention_prioritization.csv
+│   ├── retention_summary.csv
+│   └── feature_dictionary.md
+│
+├── sql/
+│   ├── 01_database_setup.sql
+│   ├── 02_data_validation.sql
+│   ├── 03_customer_kpis.sql
+│   ├── 04_churn_analysis.sql
+│   ├── 05_customer_segmentation.sql
+│   └── 06_analytical_views.sql
+│
+├── .gitignore
+├── README.md
+└── requirements.txt
