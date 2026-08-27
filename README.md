@@ -66,22 +66,26 @@ This project addresses these questions through a combination of machine learning
 ## 🎯 Project Objectives
 
 ### Predictive Analytics
+
 - Build baseline churn classification models
 - Compare multiple machine learning algorithms
 - Optimize the strongest model
 - Evaluate performance using appropriate classification metrics
 
 ### Explainable AI
+
 - Identify important churn drivers
 - Use SHAP to explain model behavior
 - Understand how customer characteristics influence churn predictions
 
 ### Customer Segmentation
+
 - Classify customers into risk categories
 - Identify high-priority customer groups
 - Analyze risk across activity, geography, and product ownership
 
 ### Business Analytics
+
 - Perform customer and churn analysis using MySQL
 - Develop retention prioritization logic
 - Visualize insights using Power BI
@@ -181,7 +185,7 @@ Because churn prediction is an imbalanced classification problem, **ROC-AUC and 
 
 ## 📈 Model Performance
 
-The optimized models produced the following results:
+The evaluated models produced the following results:
 
 | Model | ROC-AUC | PR-AUC |
 |---|---:|---:|
@@ -322,19 +326,51 @@ The SQL layer demonstrates how predictive outputs can be combined with structure
 
 ## 📊 Power BI Dashboard
 
-Power BI is used to communicate the major customer churn and retention insights visually.
+An interactive Power BI dashboard was developed to translate the churn prediction and retention analysis into business-facing insights.
 
-The dashboard supports analysis of:
+### Dashboard Pages
 
-- Customer population
-- Churn distribution
-- Customer risk levels
-- Customer segments
-- Geographic patterns
+#### 1. Bank Customer Churn & Retention Analytics
+
+Provides an overall view of:
+
+- Total customers
+- Average predicted churn risk
+- High and critical priority customers
+- Customer risk distribution
+- Geographic churn risk
+- Age-group risk patterns
+- Retention priority distribution
+
+#### 2. Churn Drivers & Customer Risk Patterns
+
+Analyzes predicted churn risk across:
+
+- Age groups
 - Activity status
-- Retention priorities
+- Number of products
+- Balance status
+- Geography
+- Risk level
 
-The Power BI report is included in the `powerbi/` directory.
+#### 3. Retention Prioritization & Action Plan
+
+Connects customer risk with the Customer Value Proxy to support:
+
+- Critical customer identification
+- High-priority customer identification
+- Risk × value analysis
+- Retention priority segmentation
+- Recommended retention actions
+- Customer-level prioritization
+
+### Dashboard Preview
+
+![Bank Customer Churn & Retention Analytics](powerbi_dashboard_preview.png)
+
+The complete interactive Power BI report is available in the repository:
+
+[Open the Power BI report](Customer_churn.pbix)
 
 ---
 
