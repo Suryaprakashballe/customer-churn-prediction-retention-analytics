@@ -9,7 +9,7 @@ risk segmentation, churn drivers, and retention prioritization.
 
 The complete interactive Power BI report is available here:
 
-[Open Power BI Dashboard](powerbi/customer_churn_retention_dashboard.pbix)
+[Open Power BI Dashboard](customer_churn_retention_dashboard.pbix)
 
 ### Dashboard Pages
 
