@@ -5,7 +5,7 @@ risk segmentation, churn drivers, and retention prioritization.
 
 ### Dashboard Preview
 
-![Power BI Customer Churn & Retention Dashboard](powerbi/powerbi_dashboard_preview.png)
+![Power BI Customer Churn & Retention Dashboard](powerbi_dashboard_preview.png)
 
 The complete interactive Power BI report is available here:
 
